@@ -6,6 +6,7 @@ print(f"Gross pay for {hoursWorked} hours at ${hourlyRate}/hour is: ${grossPay:.
 
 tax = 0 #initialize variable
 
+#conditions
 if(grossPay>=0) and (grossPay<=15600):
     tax = 0.105
 elif(grossPay>=15601) and (grossPay<=53500):

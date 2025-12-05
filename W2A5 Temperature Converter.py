@@ -2,6 +2,9 @@ class TempConverter:
     def __init__(self, user_input): #initialize and execute user_input
         try:
 
+            if " " in user_input:
+                raise ValueError #if there's whitespaces
+
             self.unit = user_input[0] #get 1st element from string
 
             if self.unit not in ['C', 'F']:

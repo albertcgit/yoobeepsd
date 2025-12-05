@@ -10,5 +10,5 @@ if __name__ == "__main__":
 
     object = FileProcessing()
 
-    input_file = r"C:\\Users\\Albert\\Documents\\1_Yoobee Files\\1_Professional Software Development\\Week 3\\demo_text.txt"
+    input_file = "C:\\Users\\Albert\\Documents\\1_Yoobee Files\\1_Professional Software Development\\Week 3\\demo_text.txt"
     object.append_and_print(input_file)

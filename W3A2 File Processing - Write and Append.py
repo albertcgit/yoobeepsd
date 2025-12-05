@@ -1,10 +1,8 @@
 class FileProcessing:
     def append_and_print(self, input_file):
-        # Append "Hello World!" at the end
         with open(input_file, "a", encoding="utf-8") as f:
             f.write("End of File")
 
-        # Read and print the entire file
         with open(input_file, "r", encoding="utf-8") as f:
             content = f.read()
             print(content)

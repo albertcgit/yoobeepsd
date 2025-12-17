@@ -132,7 +132,6 @@ class Database:
 if __name__ == "__main__":
     db = Database("W3A4_database_file.db") #Create my database object
 
-    #
     teacher1 = Teacher(1, "Mohammed")
     teacher2 = Teacher(2, "Arun")
     teacher3 = Teacher(3, "Saveeta")
